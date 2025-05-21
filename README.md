@@ -33,8 +33,22 @@ Due to file size limits, the dataset is **not included** in this repository.
 > 🔗 You can download the dataset here: [https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset/data]  
 
 ---
+## 📦 How to Run
+### Clone the repository
+
+- `git clone https://github.com/SaiSiriChandana/Music-Recommendation-App-Using-Python.git`
+- `cd Music-Recommendation-App-Using-Python`
+
+### Follow the instructions in startapp.txt
+- `pip install -r requirements.txt`
+- `cd src`
+- `python preprocess.py`
+- `streamlit run main.py`
+---
+
 ## 🙏 Acknowledgements
-This project was inspired by an amazing tutorial I followed on YouTube.
-I created this project to apply and reinforce my learning in content-based recommendation systems.
+- Dataset sourced from Kaggle.
+- Built to explore content-based filtering and text similarity.
+- Informed by various tutorials and educational resources.
 
 
